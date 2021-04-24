@@ -12,10 +12,14 @@
 </head>
 
 <body>
+    <input type="checkbox" id="nav-toggle">
     <!-- sidebar -->
     <div class="sidebar">
         <div class="sidebar-brand">
-            <h2><span class="lab la-accusoft"></span>Accusoft</h2>
+            <h2><span class="lab la-accusoft"></span>
+                <span>Accusoft</span>
+            </h2>
+
         </div>
         <div class="sidebar-menu">
             <ul>
@@ -66,7 +70,7 @@
         <header>
             <div class="header-title">
                 <h2>
-                    <label for="">
+                    <label for="nav-toggle">
                         <span class="las la-bars"></span>
                         </label> Dashboard
                 </h2>
@@ -127,43 +131,67 @@
                             <button>See all <span class="las la-arrow-right"></span></button>
                         </div>
                         <div class="card-body">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <td>Project Title</td>
-                                        <td>Department</td>
-                                        <td>Status</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>UI/UX Design</td>
-                                        <td>UI teams</td>
-                                        <td><span class="status"></span> Review</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Rest Api</td>
-                                        <td>Mobile teams</td>
-                                        <td><span class="status"></span> Pending</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Web Development</td>
-                                        <td>Frontend</td>
-                                        <td><span class="status"></span> Inprogress</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Rest Api</td>
-                                        <td>Mobile teams</td>
-                                        <td><span class="status"></span> Pending</td>
-                                    </tr>
-                                    <tr>
-                                        <td>UI/UX Design</td>
-                                        <td>UI teams</td>
-                                        <td><span class="status"></span> Review</td>
-                                    </tr>
-                                </tbody>
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <td>Project Title</td>
+                                            <td>Department</td>
+                                            <td>Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI teams</td>
+                                            <td><span class="status purple"></span> Review</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rest Api</td>
+                                            <td>Mobile teams</td>
+                                            <td><span class="status  pink"></span> Pending</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td><span class="status purple"></span> Inprogress</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rest Api</td>
+                                            <td>Mobile teams</td>
+                                            <td><span class="status orange"></span> Pending</td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI teams</td>
+                                            <td><span class="status pink"></span> Review</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rest Api</td>
+                                            <td>Mobile teams</td>
+                                            <td><span class="status orange"></span> Pending</td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI teams</td>
+                                            <td><span class="status pink"></span> Review</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rest Api</td>
+                                            <td>Mobile teams</td>
+                                            <td><span class="status  pink"></span> Pending</td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI teams</td>
+                                            <td><span class="status purple"></span> Review</td>
+                                        </tr>
 
-                            </table>
+                                    </tbody>
+
+                                </table>
+                            </div>
+
 
                         </div>
 
@@ -178,7 +206,7 @@
                         </div>
                         <div class="card-body">
                             <div class="customer">
-                                <div>
+                                <div class="info">
                                     <img src="images/user1.png" alt="">
                                     <div>
                                         <h4>John Doe Ew</h4>
@@ -186,7 +214,7 @@
 
                                     </div>
                                 </div>
-                                <div>
+                                <div class="contact">
                                     <span class="las la-user-circle"></span>
                                     <span class="las la-comment"></span>
                                     <span class="las la-phone"></span>
@@ -194,7 +222,7 @@
                                 </div>
                             </div>
                             <div class="customer">
-                                <div>
+                                <div class="info">
                                     <img src="images/user1.png" alt="">
                                     <div>
                                         <h4>John Doe Ew</h4>
@@ -202,7 +230,7 @@
 
                                     </div>
                                 </div>
-                                <div>
+                                <div class="contact">
                                     <span class="las la-user-circle"></span>
                                     <span class="las la-comment"></span>
                                     <span class="las la-phone"></span>
@@ -210,7 +238,7 @@
                                 </div>
                             </div>
                             <div class="customer">
-                                <div>
+                                <div class="info">
                                     <img src="images/user1.png" alt="">
                                     <div>
                                         <h4>John Doe Ew</h4>
@@ -218,7 +246,7 @@
 
                                     </div>
                                 </div>
-                                <div>
+                                <div class="contact">
                                     <span class="las la-user-circle"></span>
                                     <span class="las la-comment"></span>
                                     <span class="las la-phone"></span>
@@ -226,7 +254,7 @@
                                 </div>
                             </div>
                             <div class="customer">
-                                <div>
+                                <div class="info">
                                     <img src="images/user1.png" alt="">
                                     <div>
                                         <h4>John Doe Ew</h4>
@@ -234,7 +262,7 @@
 
                                     </div>
                                 </div>
-                                <div>
+                                <div class="contact">
                                     <span class="las la-user-circle"></span>
                                     <span class="las la-comment"></span>
                                     <span class="las la-phone"></span>
